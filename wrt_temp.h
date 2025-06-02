@@ -89,7 +89,7 @@ day = 21;
 hour = 12;
 minute = 0;
 second = 0;
-time_zone = -5;
+time_zone = 2;
 latitude = 47.49150169;
 longitude = 19.0606723;
 
