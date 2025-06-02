@@ -1,0 +1,43 @@
+
+/*--------------------------------------------------------------------------------------------------------------------*\
+|  .___  ___.  _______  _______  __    __       _______.        _______.  ______    __          ___      .______       |
+|  |   \/   | |   ____||   ____||  |  |  |     /       |       /       | /  __  \  |  |        /   \     |   _  \      |
+|  |  \  /  | |  |__   |  |__   |  |  |  |    |   (----`      |   (----`|  |  |  | |  |       /  ^  \    |  |_)  |     |
+|  |  |\/|  | |   __|  |   __|  |  |  |  |     \   \           \   \    |  |  |  | |  |      /  /_\  \   |      /      |
+|  |  |  |  | |  |____ |  |____ |  `--'  | .----)   |      .----)   |   |  `--'  | |  `----./  _____  \  |  |\  \----. |
+|  |__|  |__| |_______||_______| \______/  |_______/       |_______/     \______/  |_______/__/     \__\ | _| `._____| |
+|                                                                                                                      |
+|    ______     ___       __        ______  __    __   __          ___   .___________.  ______   .______               |
+|   /      |   /   \     |  |      /      ||  |  |  | |  |        /   \  |           | /  __  \  |   _  \              |
+|  |  ,----'  /  ^  \    |  |     |  ,----'|  |  |  | |  |       /  ^  \ `---|  |----`|  |  |  | |  |_)  |             |
+|  |  |      /  /_\  \   |  |     |  |     |  |  |  | |  |      /  /_\  \    |  |     |  |  |  | |      /              |
+|  |  `----./  _____  \  |  `----.|  `----.|  `--'  | |  `----./  _____  \   |  |     |  `--'  | |  |\  \----.         |
+|   \______/__/     \__\ |_______| \______| \______/  |_______/__/     \__\  |__|      \______/  | _| `._____|         |
+|                                                                                                                      |
+|----------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                      |
+| The calculations in the NOAA Sunrise/Sunset and Solar Position Calculators are based on equations  from Astronomical |
+| Algorithms, by Jean Meeus. The sunrise and sunset results are theoretically accurate to within a minute for          |
+| locations between +/- 72° latitude, and within 10 minutes outside of those latitudes. However, due to variations in  |
+| atmospheric composition, temperature, pressure and conditions, observed values may vary from calculations.           |
+|                                                                                                                      |
+| Please note that calculations in the spreadsheets are only valid for dates between 1901 and 2099, due to an          |
+| approximation used in the Julian Day calculation. The web calculator does not use this approximation, and can        |
+| report values between the years -2000 and +3000.                                                                     |
+|                                                                                                                      |
+\*--------------------------------------------------------------------------------------------------------------------*/
+
+// Parameters:
+
+extern int year = 2025;
+extern int month = 5;
+extern int day = 21;
+extern int hour = 12;
+extern int minute = 0;
+extern int second = 0;
+extern int time_zone = -5;
+extern double latitude = 39.833;
+extern double longitude = -98.583;
+
+//----------------------------------------------------END-OF-FILE-----------------------------------------------------//
+

@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------------------------------------------------------------*\
+|  .___  ___.  _______  _______  __    __       _______.        _______.  ______    __          ___      .______       |
+|  |   \/   | |   ____||   ____||  |  |  |     /       |       /       | /  __  \  |  |        /   \     |   _  \      |
+|  |  \  /  | |  |__   |  |__   |  |  |  |    |   (----`      |   (----`|  |  |  | |  |       /  ^  \    |  |_)  |     |
+|  |  |\/|  | |   __|  |   __|  |  |  |  |     \   \           \   \    |  |  |  | |  |      /  /_\  \   |      /      |
+|  |  |  |  | |  |____ |  |____ |  `--'  | .----)   |      .----)   |   |  `--'  | |  `----./  _____  \  |  |\  \----. |
+|  |__|  |__| |_______||_______| \______/  |_______/       |_______/     \______/  |_______/__/     \__\ | _| `._____| |
+|                                                                                                                      |
+|    ______     ___       __        ______  __    __   __          ___   .___________.  ______   .______               |
+|   /      |   /   \     |  |      /      ||  |  |  | |  |        /   \  |           | /  __  \  |   _  \              |
+|  |  ,----'  /  ^  \    |  |     |  ,----'|  |  |  | |  |       /  ^  \ `---|  |----`|  |  |  | |  |_)  |             |
+|  |  |      /  /_\  \   |  |     |  |     |  |  |  | |  |      /  /_\  \    |  |     |  |  |  | |      /              |
+|  |  `----./  _____  \  |  `----.|  `----.|  `--'  | |  `----./  _____  \   |  |     |  `--'  | |  |\  \----.         |
+|   \______/__/     \__\ |_______| \______| \______/  |_______/__/     \__\  |__|      \______/  | _| `._____|         |
+|                                                                                                                      |
+|----------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                      |
+| The calculations in the NOAA Sunrise/Sunset and Solar Position Calculators are based on equations  from Astronomical |
+| Algorithms, by Jean Meeus. The sunrise and sunset results are theoretically accurate to within a minute for          |
+| locations between +/- 72° latitude, and within 10 minutes outside of those latitudes. However, due to variations in  |
+| atmospheric composition, temperature, pressure and conditions, observed values may vary from calculations.           |
+|                                                                                                                      |
+| Please note that calculations in the spreadsheets are only valid for dates between 1901 and 2099, due to an          |
+| approximation used in the Julian Day calculation. The web calculator does not use this approximation, and can        |
+| report values between the years -2000 and +3000.                                                                     |
+|                                                                                                                      |
+\*--------------------------------------------------------------------------------------------------------------------*/
+
+Calculated data:
+
+     Days since 1900:                                   45798
+     Time as single number:                             0.5
+     Julian Century:                                    0.253859
+     Geom Mean Long Sun in [rad]:                       1.04011 and in [deg]: 59.5941
+     Geom Mean Anom Sun in [rad]:                       165.74 and in [deg]: 9496.22
+     Eccent Earth Orbit [-]:                            0.016698
+     Sun Eq of Ctrl [-]:                                1.30411
+     Sun True Long [rad]:                               1.06288 and in [deg]: 60.8983
+     Sun True Anom [rad]:                               165.763 and in [deg]: 9497.52
+     Sun Rad Vector [rad]:                              1.01219 and in [deg]: 57.9941
+     Sun App Long [rad]:                                1.06278 and in [deg]: 60.8931
+     Mean Obliq Ecliptic [rad]:                         0.409035 and in [deg]: 23.436
+     Obliq Corr [rad]:                                  0.40908 and in [deg]: 23.4385
+     Sun Rt Ascen [rad]:                                1.02538 and in [deg]: 58.7497
+     Sun Declin [rad]:                                  0.354938 and in [deg]: 20.3365
+     Var Y:                                             0.0430317
+     EQOfTime [min]:                                    3.35253
+     HA Sunrise [rad]:                                  2.0123 and in [deg]: 115.297
+     Solar Noon [LST]:                                  0.236392
+     Sunriserise Time [LST]:                            -0.0838759
+     Sunset Time [LST]:                                 0.55666
+     Sunlight Duration [min]:                           922.372
+     True Solar Time [min]:                             1099.6
+     Hour Angle [rad]:                                  1.6563 and in [deg]: 94.8988
+     Solar Zenith Angle [rad]:                          1.36731 and in [deg]: 78.3409
+     Solar Elevation Angle [rad]:                       0.203489 and in [deg]: 11.6591
+     Approx Atmospheric Refraction [rad]:               0.00132756 and in [deg]: 0.0760638
+     Solar Elevatio Corrected for ATM refraction [rad]: 0.204817 and in [deg]: 11.7351
+     Solar Azimuth Angle (ClockWise from N) [rad]:      5.01713 and in [deg]: 287.46
+
+
+     The direction vector which points to the sun (If the North direction and the Y axis are the same): 
+     Direction Vector X component: -95.3925
+     Direction Vector Y component: 30.0047
+     Direction Vector Z component: 20.3388
